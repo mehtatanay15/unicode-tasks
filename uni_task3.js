@@ -1,6 +1,7 @@
 import express from 'express';
 const app = express()
-import mongoose, { Schema } from 'mongoose';
+import mongoose from 'mongoose';
+import Student from './student.model.js';
 
 mongoose.connect('mongodb+srv://mehtatanay04:tanaymehta15@synapse.wwdu1cz.mongodb.net/unicode?retryWrites=true&w=majority&appName=Synapse')
 .then(() => {
@@ -11,16 +12,6 @@ mongoose.connect('mongodb+srv://mehtatanay04:tanaymehta15@synapse.wwdu1cz.mongod
 });
 
 app.use(express.json());
-
-const schema =mongoose.Schema({
-    id: String,
-    name: String,
-    gender: String,
-    house: String,
-    wizard: Boolean, 
-})
-
-const Student = mongoose.model('Student',schema)
 
 app.post('/addstudent', async(req,res) => {
     try{
