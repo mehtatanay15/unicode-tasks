@@ -4,10 +4,119 @@
     text-transform: capitalize;
     box-sizing: border-box;
 }
+
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+   
+.nav-links{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+  
+.nav-links li{
+    margin: 0 30px;
+}
+.book{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 20px;
+}
+
+.content{
+    margin-left: 100px;
+    margin-top: 150px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.content .data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+    margin-left: -450px;
+}
+
+.data .t{
+    margin-bottom: 130px;
+    font-size: 50px;
+    width: 413px;
+    font-weight: bolder;
+}
+.data .l{
+    width: 300px;
+}
+
+.data .b{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.ctno{
+    background-color: orange;
+    color: white;
+    height: 50px;
+    width: 100px;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 70px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 70px;
+}
+.ctnb{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
+    border-top-left-radius: 70px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 70px;
+}
+.photo{
+    display: flex;
+    justify-content: baseline;
+    margin-left: -450px;
+}
+
+.big{
+    height: 575px;
+    margin-left:200px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.small{
+ height:300px ;
+ margin-left: -550px;
+ z-index: 1;
+ margin-top: 270px;
+}
 body{
     background-color:#f4f4f4;
 }
 .wrapper{
+    margin-top: 100px;
+    margin-bottom: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
