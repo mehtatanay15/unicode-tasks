@@ -114,8 +114,30 @@ ul{
 body{
     background-color:#f4f4f4;
 }
+.social span{
+    padding: 9px;
+}
+
+.data .social{
+    margin-top: 35px;
+    display: flex;
+    width: 50px;
+}
+
+.social .link{
+      text-decoration: none;
+      height: 34px;
+      width: 34px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+      font-size: 25px;
+      border: 2px solid ;
+}
 .wrapper{
-    margin-top: 100px;
+    margin-top: 0px;
     margin-bottom: 80px;
     display: flex;
     align-items: center;
@@ -200,3 +222,125 @@ p{
     left: 400px;
     top: 7px;
 }
+
+.welcome{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.butt{
+    margin-top: 100px;
+}
+
+.content3{
+    margin-left: -50px;
+    margin-right: 82px;
+}
+
+.wel{
+    font-size: 50px;
+    width: 413px;
+    font-weight: bolder;
+    margin-bottom: 120px;
+}
+
+.d{
+    width: 400px;
+}
+
+.img3 img{
+    height: 600px;
+    position: relative;
+    margin-left: -800px;
+}
+
+.tr1{
+    z-index: 1;
+    top: -89px;
+    left: 560px;
+    position: relative;
+}
+
+.tr2{
+    top: 245px;
+    z-index: 1;
+    left: -90px;
+    position: relative;
+}
+
+.tr3{
+    z-index: 1;
+    top: -28px;
+    left: -445px;
+    position: relative;
+}
+.tr4{
+    z-index: 1;
+    top: 134px;
+    left: -260px;
+    position: relative;
+}
+
+.wrapper4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image4 .img4{
+    border-radius: 35px;
+}
+.subscribe{
+    position: relative;
+    bottom: 260px;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 615px;
+    text-align: center;
+}
+.co4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mail{
+    position: relative;
+    bottom: 174px;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 615px;
+    text-align: center;
+}
+
+input::placeholder{
+    color: black;
+    font-weight: 1px;
+}
+
+.mb{
+    background-color: orange;
+    color: white;
+    height: 40px;
+    width: 80px;
+    position: relative;
+    left: 258px;
+    top: -219px;
+    border-radius: 15px;
+}
+
+.con{
+    margin-top: 150px;
+}
+
+
