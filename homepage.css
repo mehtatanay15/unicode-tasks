@@ -184,6 +184,11 @@ p{
     bottom: 230px;
     left: 15px;
 }
+.photo .v{
+    position: relative;
+    left: 173px;
+    z-index: -1;
+}
 .heading p{
     margin-top: 30px;
     width: 100%;
@@ -219,8 +224,8 @@ p{
 
 .flower{
     position: absolute;
-    left: 400px;
-    top: 7px;
+    left: 377px;
+    top: 716px;
 }
 
 .welcome{
@@ -238,7 +243,7 @@ p{
 }
 
 .content3{
-    margin-left: -50px;
+    margin-left: -287px;
     margin-right: 82px;
 }
 
@@ -256,33 +261,45 @@ p{
 .img3 img{
     height: 600px;
     position: relative;
-    margin-left: -800px;
+    margin-left: -1092px;
 }
 
+.tr{
+    z-index: 1;
+    top: -241px;
+    left: 806px;
+    position: relative;
+}
+.tr0{
+    z-index: 1;
+    top: 214px;
+    left: 900px;
+    position: relative;
+}
 .tr1{
     z-index: 1;
     top: -89px;
-    left: 560px;
+    left: 4px;
     position: relative;
 }
 
 .tr2{
     top: 245px;
     z-index: 1;
-    left: -90px;
+    left: -583px;
     position: relative;
 }
 
 .tr3{
     z-index: 1;
     top: -28px;
-    left: -445px;
+    left: -874px;
     position: relative;
 }
 .tr4{
     z-index: 1;
     top: 134px;
-    left: -260px;
+    left: -590px;
     position: relative;
 }
 
