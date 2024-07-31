@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(180deg, #89CFF0, #87CEEB, #FFDAB9);
+    background: linear-gradient(-45deg, #89CFF0, #6ca780, #e0f170);
     color: #fff;
 }
 
@@ -44,7 +44,7 @@ body {
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    background: #FFEBE8;
+    background: #ccf1fabb;
     color: #000000;
     cursor: pointer;
 }
